@@ -1,0 +1,13 @@
+INPUT(
+./debug\main.o
+./debug\widget.o
+./debug\buytickets.o
+./debug\chuxungoupiaoxinxi.o
+./debug\chaxunyupiao.o
+./debug\tuipiao.o
+./debug\moc_widget.o
+./debug\moc_buytickets.o
+./debug\moc_chuxungoupiaoxinxi.o
+./debug\moc_chaxunyupiao.o
+./debug\moc_tuipiao.o
+);

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>buytickets</class>
+ <widget class="QDialog" name="buytickets">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>683</width>
+    <height>446</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="qidian">
+     <property name="text">
+      <string>起点站</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QLineEdit" name="qi"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="zhongdain">
+     <property name="text">
+      <string>终点站</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="zhong"/>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="shengfenzheng">
+     <property name="text">
+      <string>身份证</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLineEdit" name="sheng"/>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="xingming">
+     <property name="text">
+      <string>姓名</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QLineEdit" name="xing"/>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="dianhuahaoma">
+     <property name="text">
+      <string>电话号码</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QLineEdit" name="dian"/>
+   </item>
+   <item row="4" column="2">
+    <widget class="QPushButton" name="queding">
+     <property name="text">
+      <string>确定</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="piaojia">
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QLabel" name="yujidadao">
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="2">
+    <widget class="QPushButton" name="fanhui">
+     <property name="text">
+      <string>返回</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

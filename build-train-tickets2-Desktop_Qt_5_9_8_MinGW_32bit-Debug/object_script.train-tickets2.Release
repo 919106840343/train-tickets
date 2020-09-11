@@ -1,0 +1,13 @@
+INPUT(
+./release\main.o
+./release\widget.o
+./release\buytickets.o
+./release\chuxungoupiaoxinxi.o
+./release\chaxunyupiao.o
+./release\tuipiao.o
+./release\moc_widget.o
+./release\moc_buytickets.o
+./release\moc_chuxungoupiaoxinxi.o
+./release\moc_chaxunyupiao.o
+./release\moc_tuipiao.o
+);
