@@ -237,6 +237,7 @@ Makefile: ../train-tickets2/train-tickets2.pro D:/newqt/5.9.8/mingw53_32/mkspecs
 		D:/newqt/5.9.8/mingw53_32/lib/qtmaind.prl \
 		D:/newqt/5.9.8/mingw53_32/lib/Qt5Widgets.prl \
 		D:/newqt/5.9.8/mingw53_32/lib/Qt5Gui.prl \
+		D:/newqt/5.9.8/mingw53_32/lib/Qt5Network.prl \
 		D:/newqt/5.9.8/mingw53_32/lib/Qt5Core.prl
 	$(QMAKE) -o Makefile ..\train-tickets2\train-tickets2.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"
 D:/newqt/5.9.8/mingw53_32/mkspecs/features/spec_pre.prf:
@@ -415,6 +416,7 @@ D:/newqt/5.9.8/mingw53_32/mkspecs/features/lex.prf:
 D:/newqt/5.9.8/mingw53_32/lib/qtmaind.prl:
 D:/newqt/5.9.8/mingw53_32/lib/Qt5Widgets.prl:
 D:/newqt/5.9.8/mingw53_32/lib/Qt5Gui.prl:
+D:/newqt/5.9.8/mingw53_32/lib/Qt5Network.prl:
 D:/newqt/5.9.8/mingw53_32/lib/Qt5Core.prl:
 qmake: FORCE
 	@$(QMAKE) -o Makefile ..\train-tickets2\train-tickets2.pro -spec win32-g++ "CONFIG+=debug" "CONFIG+=qml_debug"

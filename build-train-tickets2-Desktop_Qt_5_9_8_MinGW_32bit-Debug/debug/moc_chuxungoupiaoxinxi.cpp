@@ -6,7 +6,7 @@
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../train-tickets2/chuxungoupiaoxinxi.h"
+#include "../../../train-tickets2 - test/train-tickets2/chuxungoupiaoxinxi.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
@@ -80,6 +80,7 @@ void chuxungoupiaoxinxi::qt_static_metacall(QObject *_o, QMetaObject::Call _c, i
         Q_UNUSED(_t)
         switch (_id) {
         case 0: _t->Mysignal_3(); break;
+
         case 2: _t->on_t_clicked(); break;
         default: ;
         }

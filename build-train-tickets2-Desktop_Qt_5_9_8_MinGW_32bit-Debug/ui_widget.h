@@ -98,6 +98,11 @@ public:
 
         label = new QLabel(Widget);
         label->setObjectName(QStringLiteral("label"));
+        QFont font;
+        font.setFamily(QString::fromUtf8("\346\245\267\344\275\223"));
+        font.setPointSize(48);
+        label->setFont(font);
+        label->setAlignment(Qt::AlignCenter);
 
         gridLayout->addWidget(label, 0, 0, 1, 9);
 
@@ -114,7 +119,7 @@ public:
         mai->setText(QApplication::translate("Widget", "\344\271\260\347\245\250", Q_NULLPTR));
         cha->setText(QApplication::translate("Widget", "\346\237\245\350\257\242\350\264\255\347\245\250\344\277\241\346\201\257", Q_NULLPTR));
         tui->setText(QApplication::translate("Widget", "\351\200\200\347\245\250", Q_NULLPTR));
-        label->setText(QApplication::translate("Widget", "TextLabel", Q_NULLPTR));
+        label->setText(QApplication::translate("Widget", "\347\201\253\350\275\246\347\245\250\346\250\241\346\213\237\350\264\255\347\245\250\347\263\273\347\273\237", Q_NULLPTR));
     } // retranslateUi
 
 };
